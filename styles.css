@@ -11,6 +11,7 @@ body {
     border: 5px #c5c6c7;
     border-style: solid;
     border-radius: 40px;
+    box-shadow: 0 0 15px white;
     
 }
 
@@ -19,6 +20,8 @@ h1, h2, h3, h4 {
     font-weight: 600;
     text-align: center;
     color: #66fcf1;
+   
+    
 }
 
 ul {
@@ -53,9 +56,10 @@ figure {
     border: 5px solid #45a29e;
     background-color: #212431;
     padding: 1%;
-    margin: 10%;
+    margin: 8%;
     width: auto;
     border-radius: 20px;
+    box-shadow: 7px 7px 5px #0b0c10;
 }
 figure img,iframe {
     border-radius: 20px;
