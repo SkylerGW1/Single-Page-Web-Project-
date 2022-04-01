@@ -1,18 +1,19 @@
 body {
     background-image: linear-gradient(to right top, #0b0c10, #111217, #15171d, #181c24, #1b212a, #1e2832, #202f3b, #213643, #21414d, #214d56, #24585d, #2b6461);
     font-family: 'Quattrocento', serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 130%;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin: auto;
     padding-left: 20px;
-    padding-right: 20px;
     line-height: 1.3;
     border: 5px #c5c6c7;
     border-style: solid;
     border-radius: 40px;
     box-shadow: 0 0 15px white;
-    
+    width: 35%;
+    min-width:300px;
+    max-width: 100%;
+     
 }
 
 h1, h2, h3, h4 {
@@ -68,6 +69,12 @@ figcaption {
     text-align: left;
     padding-left: 17%;
     color: #c5c6c7;
+}
+b {
+    font-weight: 900;
+}
+img, iframe {
+    max-width:100%;
 }
 
   
